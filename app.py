@@ -5,7 +5,7 @@ from PIL import Image
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.set_page_config(page_icon="👟", layout="wide")
+st.set_page_config(page_title="Adidas",page_icon="👟", layout="wide")
 # Reading the data from the Excel file
 df = pd.read_excel("Adidas.xlsx")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
